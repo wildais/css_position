@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.example{
+			padding: 20px;
+			color: white;
+		}
+		@media only screen and (max-width: 600px){
+			.example { background: red; }
+		}
+		@media only screen and (min-width: 600px){
+			.example { background: green;}
+		}
+		@media only screen and (min-width: 768px){
+			.example { background: blue;}
+		}
+		@media only screen and (min-width: 992px){
+			.example { background: orange;}
+		}
+		@media only screen and (min-width: 1200px){
+			.example { background: pink;}
+		}
+	</style>
+</head>
+<body>
+<div class="header">
+	<h1>Chania</h1>
+</div>
+<div>
+		<h1>The City</h1>
+		<p class="example">Chania is the capital of the Chania region on the island of Crete. 
+		The city can be divided in two parts, the old town and the modern city.</p>
+		<p>Resize the browser window to see how the content 
+		respond to the resizing.</p>
+</div>
+</body>
+</html>
